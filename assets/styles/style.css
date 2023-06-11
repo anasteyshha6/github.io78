@@ -494,7 +494,7 @@ input{
     background-size: cover;
     background-image: url(../img/yellow.png);
     padding-bottom: 50px;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 }
 
 .block_zakrut{
