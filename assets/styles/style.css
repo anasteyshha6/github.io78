@@ -405,6 +405,90 @@ input{
     color: white;
 }
 
+.block_akcii{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.akcii{
+    width: 100%;
+}
+
+.akcii .zagol_small{
+    color: #F56FAD;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1{
+    width: 70%;
+    flex-direction: column;
+    background-color: rgba(141, 217, 229, 0.22);
+    border-radius: 56px;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1 .zagol_small{
+    width: 70%;
+    color: #C32BAD;
+    border: 5px solid #C32BAD;
+    background-color: white;
+    border-radius: 80px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.text_p1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.text_p1 .big{
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.text_p1 .small{
+    color: #C32BAD;
+    padding-left: 0;
+    padding-bottom: 10px;
+}
+
+.photo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    width: 90%;
+    border-radius: 14px;
+}
+
+.p1 .button_blue{
+    justify-content: flex-start;
+}
+
 .container_yel{
     width: 100%;
     background-size: cover;
