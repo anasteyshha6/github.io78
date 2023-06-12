@@ -99,7 +99,6 @@ a{
 }
 
 .zagol{
-    width: 70%;
     font-family: 'Mon';
     font-weight: 700;
     font-size: 4.063rem;
@@ -161,6 +160,12 @@ a{
     width: 95%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.com{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -581,4 +586,133 @@ select{
 
 .text_6 p{
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .container_big{
+        width: 100%;
+    }
+
+    .section_img{
+        background-position-x: -282px;
+        background-size: cover;
+        background-position-y: 2px;
+        background-repeat: no-repeat;
+    }
+
+    .section_sky{
+        background-position-x: -282px;
+        background-size: cover;
+        background-position-y: 2px;
+        background-repeat: no-repeat;
+    }
+
+    .container_yel{
+        background-position-x: -213px;
+        background-size: cover;
+        background-position-y: 2px;
+        background-repeat: no-repeat;
+    }
+
+    .navigation{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_nav{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zagol{
+        font-size: 3.063rem;
+    }
+
+    .info{
+        padding: 80px;
+    }
+
+    .comments{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .com{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-bottom: 30px;
+    }
+
+    .block_infografica .info p{
+        width: 78%;
+    }
+
+    .zagolovok_small{
+        width: 100%;
+    }
+
+    .zagol_small{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .num{
+        width: 80%;
+    }
+
+    .blue_block{
+        width: 90%;
+    }
+
+    .reg, .date, .col{
+        width: 90%;
+    }
+
+    .blocks{
+        width: 100%;
+    }
+
+    .block1{
+        width: 90%;
+    }
+
+    .p1{
+        flex-direction: column;
+    }
+
+    .text_p1{
+        width: 100%;
+    }
+
+    .p1 .button_blue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .photo{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .block1 .zagol_small{
+        width: 100%;
+    }
+
+    .footer .small{
+        font-size: 0.625rem;
+    }
+
+    .text_6{
+        width: 35%;
+    }
+
 }
