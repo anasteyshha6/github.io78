@@ -22,7 +22,6 @@ a{
 
 .section{
     background-color: white;
-    position: relative;
 }
 
 .container_big{
@@ -151,13 +150,6 @@ a{
     font-weight: 400;
     color: white;
 
-}
-
-.block_main img{
-    width: 8%;
-    position: absolute;
-    top: 124px;
-    left: 178px;
 }
 
 .block_comment{
