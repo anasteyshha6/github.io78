@@ -114,6 +114,7 @@ a{
     font-size: 1.563rem;
     font-weight: 400;
     color: #E567AE;
+    padding-bottom: 10px;
 }
 
 .opis{
@@ -165,6 +166,7 @@ a{
 
 .com .info{
     width: 80%;
+    align-items: start;
     border: 2px solid #1DB9C3;
     border-radius: 50px;
     box-shadow: 0px 14px 28px -1px #1DB9C3;
