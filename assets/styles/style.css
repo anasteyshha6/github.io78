@@ -84,7 +84,6 @@ a{
     justify-content: center;
     align-items: center;
     padding: 190px;
-    position: relative;
 
 }
 
@@ -154,6 +153,19 @@ a{
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
+    position: relative;
+}
+
+.star{
+    position: absolute;
+    bottom: -163px;
+    left: 128px;
+}
+
+.car{
+    position: absolute;
+    bottom: -146px;
+    right: 382px;
 }
 
 .comments{
@@ -214,6 +226,41 @@ a{
 .block_infografica{
     width: 100%;
     flex-direction: column;
+    position: relative;
+}
+
+/*.markers{*/
+/*    width: 100%;*/
+/*}*/
+
+.girl{
+    position: absolute;
+    top: 536px;
+    left: 65px;
+}
+
+.house{
+    position: absolute;
+    top: 720px;
+    right: 109px;
+}
+
+.pencil{
+    position: absolute;
+    bottom: 468px;
+    left: 65px;
+}
+
+.boy{
+    position: absolute;
+    bottom: 255px;
+    right: 109px;
+}
+
+.rainbow{
+    position: absolute;
+    bottom: -11px;
+    left: 65px;
 }
 
 .block_infografica .info{
@@ -652,6 +699,40 @@ select{
 
     .block_infografica .info p{
         width: 78%;
+    }
+
+    .markers img{
+        width: 8%;
+    }
+
+    .girl{
+        left: 14px;
+    }
+
+    .house{
+        right: 17px;
+    }
+
+    .pencil{
+        left: 11px;
+    }
+
+    .boy{
+        right: 10px;
+    }
+
+    .rainbow{
+        bottom: -25px;
+    }
+
+    .star{
+        bottom: -84px;
+        left: 59px;
+    }
+
+    .car{
+        bottom: -128px;
+        right: 100px;
     }
 
     .zagolovok_small{

@@ -283,3 +283,66 @@ select{
     font-size: 1.25rem;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+    .container_big {
+        width: 100%;
+    }
+
+    .navigation{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_nav{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .zagolovok{
+        width: 100%;
+    }
+
+    .zagol{
+        width: 100%;
+    }
+
+    .blue_block{
+        width: 90%;
+    }
+
+    .reg, .date, .col{
+        width: 90%;
+    }
+
+    .footer .small{
+        font-size: 0.625rem;
+    }
+
+    .text_6{
+        width: 35%;
+    }
+
+    .bluee{
+        width: 100%;
+    }
+
+    .blue_block2{
+        width: 100%;
+    }
+
+    .button_price{
+        width: 85%;
+    }
+
+    .button_bron {
+        width: 67%;
+    }
+
+}
