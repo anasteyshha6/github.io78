@@ -203,3 +203,52 @@ a{
     font-size: 1.25rem;
     color: white;
 }
+.section_grey2{
+    background-color: #9B9A9A;
+}
+
+.small{
+    /*width: 20%;*/
+    font-family: 'Mon';
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #7027A0;
+}
+
+.section_grey2 .container_big{
+    padding-bottom: 0;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+.big_block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big_block p{
+    color: white;
+    font-size: 0.875rem;
+}
+
+.text_6{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_6 p{
+    padding-bottom: 10px;
+}

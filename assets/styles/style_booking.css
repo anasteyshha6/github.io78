@@ -65,3 +65,221 @@ a{
     border-radius: 18px;
     transition: 0.2s;
 }
+
+.block_itog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*position: relative;*/
+
+}
+
+.zagolovok{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.zagol {
+    width: 70%;
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 2.5rem;
+    background-image: linear-gradient(to right, #FF0000, #7109AA	, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue_block{
+    width: 70%;
+    background-color: rgba(141, 217, 229, 0.22);
+    border-radius: 56px;
+    padding: 20px 22px;
+    margin: 20px 0;
+}
+
+.reg, .date, .col{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.print{
+    width: 100%;
+    display: flex;
+    font-family: 'Mon';
+    margin: 10px 20px;
+}
+
+.part1, .part2{
+    width: 50%;
+}
+
+.print .big{
+    padding-bottom: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+.col::placeholder{
+    text-align: start;
+}
+
+input{
+    width: 100%;
+    font-family: 'Mon';
+    color: grey;
+    border: 1px solid #1DB9C3;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+select{
+    width: 100%;
+    font-family: 'Mon';
+    color: grey;
+    border: 1px solid #1DB9C3;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.mail{
+    font-family: 'Mon';
+    margin: 10px 20px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: 400;
+
+}
+
+.mail .big{
+    padding-bottom: 10px;
+}
+
+.mail .col{
+    width: 89%;
+}
+
+.mail input{
+    padding-bottom: 100px;
+}
+
+.bluee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue_block2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(141, 217, 229, 0.22);
+    border-radius: 56px;
+    padding: 20px 22px;
+    margin: 20px 0;
+}
+
+.blue_block2 .zagol_small{
+    font-family: 'Mon';
+    font-weight: 400;
+    font-size: 1.563rem;
+    color: #F56FAD;
+}
+
+.price .zagol_small{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.button_blue{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.button_price{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_price{
+    width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1DB9C3;
+    background-color: #1DB9C3;
+    padding: 10px 50px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.button_price:hover{
+    background-color: #1b7077;
+    transition: 0.2s;
+}
+
+.button_price p{
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.button_pink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.button_bron{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(255, 174, 241, 0.57);
+    background-color: #E014C3;
+    padding: 10px 100px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.button_bron:hover{
+    background-color: #880d77;
+    transition: 0.2s;
+}
+
+.button_bron p{
+    font-family: 'Mon';
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+}
