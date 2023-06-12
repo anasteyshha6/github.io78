@@ -104,8 +104,9 @@ a{
     font-family: 'Mon';
     font-weight: 700;
     font-size: 4.063rem;
-    color: #F74225;
-    /*background-image: linear-gradient(27deg, rgb(187, 58, 154) 13%, rgb(246, 198, 141) 50%, rgb(234, 57, 199) 88%);*/
+    background-image: linear-gradient(to right, #ff8a24, #dc1586);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .biggest{
@@ -113,7 +114,7 @@ a{
     font-family: 'Mon';
     font-size: 1.563rem;
     font-weight: 400;
-    color: lawngreen;
+    color: #E567AE;
 }
 
 .opis{
@@ -237,7 +238,6 @@ a{
     background-image: linear-gradient(to right, #4FD1EA, #C681FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all .2s;
 }
 
 .block_infografica .info p{
