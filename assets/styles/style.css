@@ -39,7 +39,7 @@ a{
 }
 
 .logo img{
-    width: 100%;
+    width: 65%;
 }
 
 .text_nav{
@@ -103,7 +103,7 @@ a{
     font-family: 'Mon';
     font-weight: 700;
     font-size: 4.063rem;
-    background-image: linear-gradient(27deg, rgb(250, 148, 228) 13%, rgba(255,215,149,1) 50%, rgb(250, 148, 228) 88%);
+    background-image: linear-gradient(27deg, rgb(187, 58, 154) 13%, rgb(246, 198, 141) 50%, rgb(234, 57, 199) 88%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all .2s;
@@ -249,7 +249,7 @@ a{
 }
 
 .zagolovok_small{
-    width: 100%;
+    width: 91%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -330,6 +330,7 @@ a{
 }
 
 .big_block{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,7 +343,7 @@ a{
 }
 
 .blue_block{
-    width: 100%;
+    width: 70%;
     background-color: rgba(141, 217, 229, 0.22);
     border-radius: 56px;
     padding: 20px 22px;
@@ -350,6 +351,7 @@ a{
 }
 
 .reg, .date, .col{
+    width: 40%;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
@@ -357,21 +359,41 @@ a{
 
 .print{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .print .big{
+    text-align: center;
     padding-bottom: 10px;
     color: black;
     font-weight: 400;
 }
 
 input{
-    width: 50%;
+    width: 100%;
     color: #1DB9C3;
     border: 1px solid #1DB9C3;
     background-color: white;
-    padding: 10px 100px;
+    padding: 10px 90px;
     border-radius: 20px;
+    text-align: center;
+}
+
+select{
+    width: 100%;
+    color: grey;
+    border: 1px solid #1DB9C3;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.reg .small{
+    color: #9B9A9A;
 }
 
 .button_blue{
@@ -421,6 +443,10 @@ input{
     color: #F56FAD;
 }
 
+.akcii .zagolovok_small{
+    width: 100%;
+}
+
 .blocks{
     display: flex;
     flex-direction: column;
@@ -453,12 +479,16 @@ input{
     margin-bottom: 10px;
 }
 
+.block1 .zagolovok_small{
+    width: 100%;
+}
+
 .text_p1{
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     padding: 0 20px;
 }
 
@@ -505,7 +535,7 @@ input{
 }
 
 .block_zakrut .big_block{
-    width: 50%;
+    width: 100%;
     padding-top: 150px;
 }
 
